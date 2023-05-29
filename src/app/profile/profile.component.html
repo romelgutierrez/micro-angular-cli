@@ -22,8 +22,8 @@
 
       <div class="card-body">
         <button type="button" class="btn btn-danger" (click)="logout(user.id)">Logout</button>
-        <button type="button" class="btn btn-warning" style="margin: 0 10px;"
-          (click)="updateProfile(user.id)">Update</button>
+        <!-- <button type="button" class="btn btn-warning" style="margin: 0 10px;"
+          (click)="updateProfile(user.id)">Update</button> -->
         <button type="button" class="btn btn-info" (click)="addCategory(user.id)" *ngIf="user.admin">Add
           category</button>
         <button type="button" class="btn btn-success" (click)="addTag()" style="margin-left: 10px;"
