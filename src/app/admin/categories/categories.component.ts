@@ -2,7 +2,7 @@ import { AddTagToProductComponent } from './../add-tag-to-product/add-tag-to-pro
 import { AddProductComponent } from './../add-product/add-product.component';
 import { AddCategoryComponent } from './../add-category/add-category.component';
 import { UserService } from './../../service/user.service';
-import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
+import { MatDialog } from '@angular/material/dialog';
 import { CategoryService } from './../../service/category.service';
 import { ProductService } from './../../service/product.service';
 import { Product, Category, User, Tag, Comment } from './../../modal/Modal';

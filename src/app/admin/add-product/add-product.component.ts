@@ -1,7 +1,7 @@
 import { Product } from './../../modal/Modal';
 import { Component, Inject, OnInit } from '@angular/core';
 import { ProductService } from 'src/app/service/product.service';
-import { MAT_LEGACY_DIALOG_DATA as MAT_DIALOG_DATA } from '@angular/material/legacy-dialog';
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-add-product',
