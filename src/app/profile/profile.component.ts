@@ -2,7 +2,7 @@ import { AddTagComponent } from './../admin/add-tag/add-tag.component';
 import { CategoryService } from './../service/category.service';
 import { Cart, Category } from './../modal/Modal';
 
-import { MatDialog } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
 import { UserService } from './../service/user.service';
 import { Component, OnInit } from '@angular/core';
 import { User } from '../modal/Modal';

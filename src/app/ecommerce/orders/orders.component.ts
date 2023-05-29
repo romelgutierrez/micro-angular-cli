@@ -1,6 +1,6 @@
 
 import { Component, OnInit } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
+import { MatLegacyDialog as MatDialog } from '@angular/material/legacy-dialog';
 import { Subscription } from 'rxjs';
 import { ProductOrders, User } from 'src/app/modal/Modal';
 import { OrderService } from 'src/app/service/order.service';
